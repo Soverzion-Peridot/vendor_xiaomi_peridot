@@ -1942,7 +1942,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libmisfpsop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmisfpsop.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libmisight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmisight.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libmisops.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmisops.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/libmisoundfx_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmisoundfx_ext.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libmisoundsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmisoundsa.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libmispowerop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmispowerop.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libmisr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmisr.so \
