@@ -637,7 +637,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/lib64/camera/plugins/com.xiaomi.plugin.watermark.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/plugins/com.xiaomi.plugin.watermark.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/hw/consumerir.qcom.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/consumerir.qcom.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/hw/displayfeature.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/displayfeature.default.so \
-    vendor/xiaomi/peridot/proprietary/odm/lib64/hw/fingerprint.goodix_fod.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_fod.so \
+    vendor/xiaomi/peridot/proprietary/odm/lib64/hw/fingerprint.goodix_fod.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_fod.default.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/hw/fingerprint.jiiov.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.jiiov.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libAncHumanVideoBokehV4.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumanVideoBokehV4.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libMiDispDevManager.so:$(TARGET_COPY_OUT_ODM)/lib64/libMiDispDevManager.so \
