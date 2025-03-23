@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/adsp_sleep_monitor.conf:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/adsp_sleep_monitor.conf \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/mixer_paths_cliffs_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/mixer_paths_cliffs_mtp.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/mixer_paths_overlay_dynamic.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/mixer_paths_overlay_dynamic.xml \
-    vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/mixer_paths_overlay_static.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/sku_cliffs/resourcemanager_cliffs_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/resourcemanager_cliffs_mtp.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio_policy_engine_configuration.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_configuration.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_default_stream_volumes.xml \
@@ -497,8 +496,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/firmware/CAMERA_ICP.mbn:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.mbn \
     vendor/xiaomi/peridot/proprietary/odm/firmware/CAMERA_ICP.mdt:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.mdt \
     vendor/xiaomi/peridot/proprietary/odm/firmware/Conf_MultipleTest_TianMa.ini:$(TARGET_COPY_OUT_ODM)/firmware/Conf_MultipleTest_TianMa.ini \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/aw8697_rtp_1.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_rtp_1.bin \
     vendor/xiaomi/peridot/proprietary/odm/firmware/aw882xx_acf.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw882xx_acf.bin \
     vendor/xiaomi/peridot/proprietary/odm/firmware/evass-lt.b00:$(TARGET_COPY_OUT_ODM)/firmware/evass-lt.b00 \
     vendor/xiaomi/peridot/proprietary/odm/firmware/evass-lt.b01:$(TARGET_COPY_OUT_ODM)/firmware/evass-lt.b01 \
@@ -550,12 +547,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/firmware/goodix_cfg_group_peridot_csot.bin:$(TARGET_COPY_OUT_ODM)/firmware/goodix_cfg_group_peridot_csot.bin \
     vendor/xiaomi/peridot/proprietary/odm/firmware/goodix_firmware_peridot_csot.bin:$(TARGET_COPY_OUT_ODM)/firmware/goodix_firmware_peridot_csot.bin \
     vendor/xiaomi/peridot/proprietary/odm/firmware/goodix_test_limits_255.csv:$(TARGET_COPY_OUT_ODM)/firmware/goodix_test_limits_255.csv \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/haptic_ram.bin:$(TARGET_COPY_OUT_ODM)/firmware/haptic_ram.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/haptic_rtp.bin:$(TARGET_COPY_OUT_ODM)/firmware/haptic_rtp.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/haptic_rtp_auto_sin.bin:$(TARGET_COPY_OUT_ODM)/firmware/haptic_rtp_auto_sin.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/haptic_rtp_lighthouse.bin:$(TARGET_COPY_OUT_ODM)/firmware/haptic_rtp_lighthouse.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/haptic_rtp_osc_24K_5s.bin:$(TARGET_COPY_OUT_ODM)/firmware/haptic_rtp_osc_24K_5s.bin \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/haptic_rtp_silk.bin:$(TARGET_COPY_OUT_ODM)/firmware/haptic_rtp_silk.bin \
     vendor/xiaomi/peridot/proprietary/odm/firmware/vpu30_2v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu30_2v.mbn \
     vendor/xiaomi/peridot/proprietary/odm/firmware/vpu33_4v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu33_4v.mbn \
     vendor/xiaomi/peridot/proprietary/odm/lib/rfsa/adsp/capi_elus_rx.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/capi_elus_rx.so \
@@ -637,11 +628,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/lib64/camera/plugins/com.xiaomi.plugin.watermark.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/plugins/com.xiaomi.plugin.watermark.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/hw/consumerir.qcom.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/consumerir.qcom.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/hw/displayfeature.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/displayfeature.default.so \
-    vendor/xiaomi/peridot/proprietary/odm/lib64/hw/fingerprint.goodix_fod.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_fod.default.so \
+    vendor/xiaomi/peridot/proprietary/odm/lib64/hw/fingerprint.goodix_fod.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_fod.default.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/hw/fingerprint.jiiov.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.jiiov.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libAncHumanVideoBokehV4.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumanVideoBokehV4.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libMiDispDevManager.so:$(TARGET_COPY_OUT_ODM)/lib64/libMiDispDevManager.so \
-    vendor/xiaomi/peridot/proprietary/odm/lib64/libMiStereoFactoryCalibAnalyzeBin_qual.so:$(TARGET_COPY_OUT_ODM)/lib64/libMiStereoFactoryCalibAnalyzeBin_qual.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libTrueSight.so:$(TARGET_COPY_OUT_ODM)/lib64/libTrueSight.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libadaptivehdr.so:$(TARGET_COPY_OUT_ODM)/lib64/libadaptivehdr.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libanc_edof_checker.so:$(TARGET_COPY_OUT_ODM)/lib64/libanc_edof_checker.so \
@@ -681,7 +671,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libmiBrightness.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiBrightness.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libmiClstc.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiClstc.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libmiSensorCtrl.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiSensorCtrl.so \
-    vendor/xiaomi/peridot/proprietary/odm/lib64/libmiStereoCalibLib_qual.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiStereoCalibLib_qual.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libmiXmlParser.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiXmlParser.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libmi_dspp.so:$(TARGET_COPY_OUT_ODM)/lib64/libmi_dspp.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libmiai_deblur.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiai_deblur.so \
@@ -721,7 +710,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/lib64/sensors.ultrasoundproximity.so:$(TARGET_COPY_OUT_ODM)/lib64/sensors.ultrasoundproximity.so \
     vendor/xiaomi/peridot/proprietary/odm/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/vendor/etc/dolby_vision.cfg \
     vendor/xiaomi/peridot/proprietary/odm/vendor/persist/display/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/vendor/persist/display/dolby_vision.cfg \
-    vendor/xiaomi/peridot/proprietary/product/etc/device_features/peridot.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/peridot.xml \
     vendor/xiaomi/peridot/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/xiaomi/peridot/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/xiaomi/peridot/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
@@ -1138,8 +1126,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/media_codecs_cliffs_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_cliffs_v0.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/media_codecs_performance_cliffs_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_cliffs_v0.xml \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/microphone_characteristics.xml:$(TARGET_COPY_OUT_VENDOR)/etc/microphone_characteristics.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/models/acd/environment.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/environment.eai \
     vendor/xiaomi/peridot/proprietary/vendor/etc/models/acd/event.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/event.eai \
