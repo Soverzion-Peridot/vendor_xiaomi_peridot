@@ -1708,7 +1708,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/hw/gyro_fusion_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gyro_fusion_interface.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/hw/libEseUtils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libEseUtils.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/hw/libqtigatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libqtigatekeeper.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/hw/sound_trigger.primary.pineapple.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.pineapple.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.alarm-impl.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so \
